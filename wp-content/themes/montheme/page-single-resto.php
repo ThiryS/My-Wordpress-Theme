@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name : sigle-resto
+Template Name: sigle-resto
 */
 ?>
 <?php get_header(); ?>
