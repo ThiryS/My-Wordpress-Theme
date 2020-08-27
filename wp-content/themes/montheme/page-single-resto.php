@@ -1,3 +1,8 @@
+<?php 
+/*
+Template Name : sigle-resto
+*/
+?>
 <?php get_header(); ?>
 
 <?php $header = get_field('header');?>
