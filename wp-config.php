@@ -17,19 +17,20 @@
  *
  * @package WordPress
  */
+//  b255c07f887a91  : c87c0064 @us-cdbr-east-02.cleardb.com/    heroku_822d8e93139b715  ?reconnect=true
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'thejumpingrabbit' );
+define( 'DB_NAME', 'heroku_822d8e93139b715' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'b255c07f887a91' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'c87c0064' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '@us-cdbr-east-02.cleardb.com' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
