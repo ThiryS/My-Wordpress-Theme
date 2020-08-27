@@ -29,7 +29,7 @@
                     <span class="icon-bar bar2"></span>
                     <span class="icon-bar bar3"></span>
                 </button>
-                <a href="{{ route('home') }}" class="navbar-brand">
+                <a href="http://the-jumping-rabbit.herokuapp.com/" class="navbar-brand">
                     The Jumping Rabbit  
                 </a>
             </div>
