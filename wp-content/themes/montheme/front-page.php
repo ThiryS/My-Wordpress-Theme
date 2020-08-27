@@ -120,7 +120,7 @@
                     <span><?php echo $resto['resto3littletitle'];?></span>
                     <h2><?php echo $resto['resto3bigtitle'];?></h2>
                     <p><?php echo $resto['resto3desc'];?></p>
-                    <button class="btn btn-fill btn-black">More Infos</button>
+                    <a href="http://the-jumping-rabbit.herokuapp.com/menu" class="btn btn-fill btn-black">More Infos</a>
                 </div>
                 <div class="col-md-4">
                     <img src="<?php echo $resto['resto3img']['url'];?>" alt="" style="width: 700px;"> 
