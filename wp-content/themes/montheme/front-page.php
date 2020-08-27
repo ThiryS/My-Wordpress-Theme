@@ -120,7 +120,7 @@
                     <span><?php echo $resto['resto3littletitle'];?></span>
                     <h2><?php echo $resto['resto3bigtitle'];?></h2>
                     <p><?php echo $resto['resto3desc'];?></p>
-                    <a href="http://the-jumping-rabbit.herokuapp.com/menu" class="btn btn-fill btn-black">More Infos</a>
+                    <button  class="btn btn-fill btn-black">More Infos</button>
                 </div>
                 <div class="col-md-4">
                     <img src="<?php echo $resto['resto3img']['url'];?>" alt="" style="width: 700px;"> 
@@ -143,7 +143,7 @@
                     <span>lets discover food</span>
                     <h2>Discover our menu</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus excepturi ea neque corporis perspiciatis dolor nihil? Deleniti aspernatur recusandae temporibus praesentium ad similique, debitis a, quasi tenetur ut, architecto saepe.</p>
-                    <button class="btn btn-fill btn-black">View the full menu</button>
+                    <a href="http://the-jumping-rabbit.herokuapp.com/menu" class="btn btn-fill btn-black">View the full menu</a>
                 </p>
             </div>
             <div class="col-md-1">
