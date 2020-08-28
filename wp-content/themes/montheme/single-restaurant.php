@@ -5,11 +5,11 @@ Template Name: sigle-resto
 ?>
 <?php get_header(); ?>
 
-<?php $header = get_field('header');?>
+<?php $infos = get_field('infos');?>
 
 <div class="section section-header">
         <div class="parallax filter filter-color-black">
-            <div class="image" style="background-image: url(/wp-content/themes/montheme/assets/images/clay-banks-1Uj0HmqQFGk-unsplash.jpg);">
+            <div class="image" style="background-image: url(<?php echo $infos['img']['url'];?>);">
             </div>
             <div class="container">
                 <div class="content pull-left" style="margin-left: 10em;">
