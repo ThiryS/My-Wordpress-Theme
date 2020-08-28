@@ -6,5 +6,257 @@ Requires at least: WordPress 5.0
 Version: 1.0
 */
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900%27');
+body {
+    background-color:#F5F5F5;
+    font-family: 'Poppins', sans-serif;
+}
+.contenupage {
+    background-image : url('http://localhost/premierWordpress/wp-content/uploads/2020/08/resto1-1.jpg') ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px ;
+    background-size: cover;
+    filter: brightness(-0.9)  ;
+    
+   
+    
+    
+}
+
+.menu {
+	display : flex ;	
+	flex-direction : row-reverse ; 
+	justify-content : space-between;	
+	margin-left : 500px;
+		
+}
+
+ 
+a { 
+		text-decoration : none ;
+        list-style-type : none ;
+        color : white ; 
+	
+}
+
+.checkmenu {
+    size : 17px;
+}
+
+.navbar  {
+	display : flex ;
+    justify-content : space-around ;
+    
+	
+	
+}
+.menu-item {
+	display : flex ;
+	justify-items : space-around ;
+	width : 170px ;
+
+}
+
+.title {
+    
+    color : white;
+    text-align: left;
+    margin : 21em ;
+}
+.cutelry {
+    margin-right : 10px ;
+    
+}
+h3 {
+    font-size : 28px ;
+}
+h2 { 
+    font-size : 24px ;
+}
+
+p { 
+    color : black ;
+}
+.page { 
+    background-color: #F5F5F5;
+}
+
+.contenusingle {
+    width : 70% ;
+    margin-left: 10%;
+    color : white ;
+}
+.contenusingle p { 
+    color: white ;
+    margin-left : 25% ;
+}
+.contenusingle h1 {
+    margin-left : 25% ;
+}
+.imgrecettes {
+    margin-left : 30% ;
+    margin-top: -300px ;
+    
+    
+   
+    height: 490px ;
+    width : 840px ;
+}
+
+.hachureblanctop {
+    width : 100%  ;
+    margin-top: -6em;
+    
+    
+}
+
+.singleinstructions {
+    
+    color : black ;
+}
+.post {
+    background-color: #292929;
+    height : 700px ;
+}
+
+.post_meta p{
+    color : black;
+    margin :30%;
+}
+.post__meta {
+    width : 70% ;
+    margin-left: 30% ;
+    margin-top : 5% ;
+}
+.cattime { 
+    margin : 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #292929;
+    color : white;
+
+}
+
+.catttime p {
+    margin : 200px ;
+    color : white ;
+}
+
+
+
+body {
+    background-color:white;
+}
+
+.frontpage {
+    background-image: url('assets/images/banner-top.jpg');
+}
+
+.hachuregrisetop {
+    width:100% ;
+    height : auto ;
+    /* position: absolute ; */
+    margin-top: -50px;
+    
+    
+
+}
+
+.entry-title a {
+    color : black ;
+}
+
+.recettes h2 img{
+    border: 1px solid;
+    background-color: white;
+    display :flex ;
+    justify-content:center;
+    flex-direction: row ;
+    align-items: center;
+   
+    
+}
+.recettes {
+    border: 1px solid;
+    background-color: white;
+    display :flex ;
+    justify-content:center;
+    justify-content: space-between;
+    flex-direction: row ;
+    align-items: center;
+    width: 70%;
+    margin-left : 15%;
+    margin-bottom: 30px;
+    
+    
+
+}
+
+.recettescontenu{
+    margin : 10px ; 
+}
+
+.recettescontenu h2{
+    margin-left : 30% ; 
+}
+
+.recipiesdescription {
+    margin : 10px ;
+}
+
+.imagesrecettes {
+    margin : 10px ;
+    width : 500px ;
+    height: 300px;
+}
+.wp-pagenavi a{
+    background-color: #F5F5F5;
+    color : black ;
+}
+
+.singleheader { 
+    background-color: #292929;
+}
+
+.listcategories li ul a {
+   
+    text-decoration: none;
+    list-style-type: none;
+    color : black ;
+}
+.categories {
+    
+    text-decoration: none;
+    list-style-type: none;
+    display : flex;
+
+}
+
+h1.subtitle {
+    text-align: center;
+}
+
+h2.title_service {
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+h3.title_menu_price {
+    text-transform: uppercase;
+    text-align: justify;
+}
+h4.text {
+    text-align: justify;
+    font-style: italic;
+    color: dimgrey;
+}
+
+.card-menu {
+    margin-left: 4%;
+}
 
 
