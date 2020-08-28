@@ -85,7 +85,7 @@
                     <span><?php echo $resto['resto1littletitle'];?></span>
                     <h2><?php echo $resto['resto1bigtitle'];?></h2>
                     <p><?php echo $resto['resto1desc'];?></p>
-                    <button class="btn btn-fill btn-black">More Infos</button>
+                    <a href="http://the-jumping-rabbit.herokuapp.com/restaurant/the-chefs-cafeteria/" class="btn btn-fill btn-black">More Infos</a>
                 </div>
                 <div class="col-md-4">
                     <img src="<?php echo $resto['resto1img']['url'];?>" alt="" style="width: 700px;"> 
@@ -105,7 +105,7 @@
                     <span><?php echo $resto['resto2littletitle'];?></span>
                     <h2><?php echo $resto['resto2littletitle'];?></h2>
                     <p><?php echo $resto['resto2desc'];?></p>
-                    <button class="btn btn-fill btn-black">More Infos</button>
+                    <a href="http://the-jumping-rabbit.herokuapp.com/restaurant/the-becentral-resto/"class="btn btn-fill btn-black">More Infos</a>
                 </div>
                 
                 
@@ -120,7 +120,7 @@
                     <span><?php echo $resto['resto3littletitle'];?></span>
                     <h2><?php echo $resto['resto3bigtitle'];?></h2>
                     <p><?php echo $resto['resto3desc'];?></p>
-                    <button  class="btn btn-fill btn-black">More Infos</button>
+                    <a href="http://the-jumping-rabbit.herokuapp.com/restaurant/the-honkytong/" class="btn btn-fill btn-black">More Infos</a>
                 </div>
                 <div class="col-md-4">
                     <img src="<?php echo $resto['resto3img']['url'];?>" alt="" style="width: 700px;"> 

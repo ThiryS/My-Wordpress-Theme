@@ -13,8 +13,8 @@ Template Name: sigle-resto
             </div>
             <div class="container">
                 <div class="content pull-left" style="margin-left: 10em;">
-					<h5><?php echo $header['littletitle'];?></h5>
-                    <h1><?php echo $header['bigtitle'];?></h1>
+					<h5><?php echo $infos['littletitle'];?></h5>
+                    <h1><?php echo $infos['name'];?></h1>
                 </div>
             </div>
         </div>
