@@ -9,7 +9,7 @@ Template Name: sigle-resto
 
 <div class="section section-header">
         <div class="parallax filter filter-color-black">
-            <div class="image" style="background-image: url(<?php echo $infos['img']['url'];?>);">
+            <div class="image" style="background-image: url('<?php echo $infos['img']['url'];?>');">
             </div>
             <div class="container">
                 <div class="content pull-left" style="margin-left: 10em;">
